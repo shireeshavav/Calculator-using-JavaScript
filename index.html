@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div id="calculator">
+        <input type="text" id="display" readonly>
+        <div id="keys">
+            <button onclick="operationsfn('7')">7</button>
+            <button onclick="operationsfn('8')">8</button>
+            <button onclick="operationsfn('9')">9</button>
+            <button onclick="operationsfn('-')"class="oper-btn">-</button>
+            <button onclick="operationsfn('4')">4</button>
+            <button onclick="operationsfn('5')">5</button>
+            <button onclick="operationsfn('6')">6</button>
+            <button onclick="operationsfn('*')"class="oper-btn">*</button>
+            <button onclick="operationsfn('1')">1</button>
+            <button onclick="operationsfn('2')">2</button>
+           
+            <button onclick="operationsfn('3')">3</button>
+            <button onclick="operationsfn('+')" class="oper-btn">+</button>
+             
+            <button onclick="operationsfn('.')">.</button>
+            <button onclick="operationsfn('0')">0</button><button onclick="operationsfn('/')"class="oper-btn">/</button>
+            
+            <button onclick="calculate()" class="oper-btn" >=</button>
+            <button onclick="clearDisplay()"class="oper-btn">AC</button>
+
+
+
+            
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
